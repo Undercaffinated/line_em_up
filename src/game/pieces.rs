@@ -29,7 +29,7 @@ pub fn spawn_piece(
     ));
 }
 
-#[derive(Debug, Copy, Clone)]
+#[derive(Debug, Copy, Clone, PartialEq)]
 pub enum PieceColors {
     Red,
     Black,
